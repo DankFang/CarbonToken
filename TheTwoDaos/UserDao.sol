@@ -38,6 +38,7 @@ contract userDao{
     }
     // 获取碳配额余量
     function claim() external view returns(uint256){
+        
         return cTToken.balanceOf(UserAddress);
     }
 }
