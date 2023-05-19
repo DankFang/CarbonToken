@@ -53,6 +53,12 @@ contract CTToken is ERC20 {
     function getClaimed(address user) external view returns(bool){
         return addressInfo[user].isClaimed;
     }
+    function getEnterpriseType(address user) external view returns(bool){
+        return addressInfo[user].isEnterprise;
+    }
+    function getDistributedType(address user) external view returns(bool){
+        return addressInfo[user].isDistributed;
+    }
     function nextYear() external {
         currentYear++;
         // resetDistributionStatus();
