@@ -1,0 +1,89 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "addr",
+						"type": "address"
+					}
+				],
+				"name": "isUntrustworthy",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "addr",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "record",
+						"type": "uint256"
+					}
+				],
+				"name": "recordEmission",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Desktop/CarbonToken/Daos/carbonRecord.sol": "carbonRecord"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Desktop/CarbonToken/Daos/carbonRecord.sol": {
+			"keccak256": "0xf0db248c09a95ed92dfecd0da7790698a904618ffca6cebc8ffba4ed5f0e44b0",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://ea67a28b1a123c79e4e0ec83e19bc34366c85c31a55b1f0d987682c4eb7850a4",
+				"dweb:/ipfs/Qma9n56XwDvxwp74KHUW4mrGyMz3x8TTjwHEMNLe6BaLY1"
+			]
+		}
+	},
+	"version": 1
+}

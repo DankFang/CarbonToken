@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32[]",
+						"name": "proof",
+						"type": "bytes32[]"
+					},
+					{
+						"internalType": "address",
+						"name": "CEDAddress",
+						"type": "address"
+					}
+				],
+				"name": "isMember",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Desktop/CarbonToken/Daos/CEDDao.sol": "CEDDao"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Desktop/CarbonToken/Daos/CEDDao.sol": {
+			"keccak256": "0x27499eb7273d429655165c8d88db1d3250b0d7c272a8e4b18752c704cae0964d",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://d9c44a113b6a7ab72494d5676906c66009b8d1ecfd7d786425b2796f5017d80e",
+				"dweb:/ipfs/QmSfzpnGHjNbhRoKiZaqCzd4ThGeBbGmrLte76K7ELeF3V"
+			]
+		},
+		"Desktop/CarbonToken/Daos/Merklelibrary.sol": {
+			"keccak256": "0xf7bf676ce937d1a38eb22bc8870964133a8d6a29c874de6629da5a833e19b794",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://6b6f5df1dd1dfacc88d12ef5f544c23f5ed420f5f2f9c0ca002d327923a41f5e",
+				"dweb:/ipfs/QmQwn68PUTEVVBXBTYxQGNcXefjay3ZiW11mypkQHmiJB2"
+			]
+		}
+	},
+	"version": 1
+}
