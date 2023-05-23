@@ -1,0 +1,129 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "_root",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32[]",
+						"name": "proof",
+						"type": "bytes32[]"
+					}
+				],
+				"name": "claimCarbonQuota",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					}
+				],
+				"name": "hasCarbonPermission",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "members",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "root",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"CarbonToken/dao/pUser.sol": "DAO"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"CarbonToken/dao/pUser.sol": {
+			"keccak256": "0x6ab5dd2d2774f3cb74431a836046caa01d2b71220e6c7b426a6a18bdc0f69666",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b7ba05ad39f3bafd15ce30344c203271cb275faec916905b08b3ebf3472fde3c",
+				"dweb:/ipfs/QmPiVnQeJvuYmECwhdm5DZhwsBHHefWRGa4o1L6nawR123"
+			]
+		},
+		"CarbonToken/merkle-tree-solidity/contracts/MerkleProof.sol": {
+			"keccak256": "0x2a041b73b59687ab0d3beb1786d49d82778064b203e875a33b31f68880f4251a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://fe88b06509f443b1b1712cb58e9b9a0846cf2fbca9e793af2df480d8d3bcfa4d",
+				"dweb:/ipfs/QmW2tGovQLqR99dRJK7biCi6dupFix9gEqdHThjsV3F76T"
+			]
+		}
+	},
+	"version": 1
+}

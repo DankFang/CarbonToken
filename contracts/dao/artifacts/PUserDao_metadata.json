@@ -1,0 +1,258 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "CtAddress",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					}
+				],
+				"name": "LetMembertoTrue",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "claim",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getQuota",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					}
+				],
+				"name": "initUser",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					}
+				],
+				"name": "isClaimed",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					}
+				],
+				"name": "isMember",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "members",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "oracleAddress",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "root",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"CarbonToken/dao/pUser.sol": "PUserDao"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"@openzeppelin/contracts/token/ERC20/ERC20.sol": {
+			"keccak256": "0x4ffc0547c02ad22925310c585c0f166f8759e2648a09e9b489100c42f15dd98d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://15f52f51413a9de1ff191e2f6367c62178e1df7806d7880fe857a98b0b66253d",
+				"dweb:/ipfs/QmaQG1fwfgUt5E9nu2cccFiV47B2V78MM1tCy1qB7n4MsH"
+			]
+		},
+		"@openzeppelin/contracts/token/ERC20/IERC20.sol": {
+			"keccak256": "0x9750c6b834f7b43000631af5cc30001c5f547b3ceb3635488f140f60e897ea6b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5a7d5b1ef5d8d5889ad2ed89d8619c09383b80b72ab226e0fe7bde1636481e34",
+				"dweb:/ipfs/QmebXWgtEfumQGBdVeM6c71McLixYXQP5Bk6kKXuoY4Bmr"
+			]
+		},
+		"@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol": {
+			"keccak256": "0x8de418a5503946cabe331f35fe242d3201a73f67f77aaeb7110acb1f30423aca",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5a376d3dda2cb70536c0a45c208b29b34ac560c4cb4f513a42079f96ba47d2dd",
+				"dweb:/ipfs/QmZQg6gn1sUpM8wHzwNvSnihumUCAhxD119MpXeKp8B9s8"
+			]
+		},
+		"@openzeppelin/contracts/utils/Context.sol": {
+			"keccak256": "0xe2e337e6dde9ef6b680e07338c493ebea1b5fd09b43424112868e9cc1706bca7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6df0ddf21ce9f58271bdfaa85cde98b200ef242a05a3f85c2bc10a8294800a92",
+				"dweb:/ipfs/QmRK2Y5Yc6BK7tGKkgsgn3aJEQGi5aakeSPZvS65PV8Xp3"
+			]
+		},
+		"@openzeppelin/contracts/utils/cryptography/MerkleProof.sol": {
+			"keccak256": "0xd466e8b07f4c6220eac16da5127f3ff142e65f0c15c03c7d38f257b02c8585e1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e6b3cab69f655e40117bbdd8e68d7423f26d1b24248fb189c295f08de8940616",
+				"dweb:/ipfs/QmWoyRthsBDMa7gJpH5UCjpa8uNUQfyaGbSgY3uvhBH9F3"
+			]
+		},
+		"CarbonToken/carbonToken.sol": {
+			"keccak256": "0x3faf14c27f04659359977d4daeab73fcaa0dda21110e9a74e40b431eeed45ae6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c6030a1d95f6297ad8ef70b762aa0867a10809d419816812e7f53b40a4d6cee5",
+				"dweb:/ipfs/QmRTLRfz3g21gHJVsu6r5VyLfXfQnchvHdXgD1s8hGSngz"
+			]
+		},
+		"CarbonToken/dao/IpeInterface.sol": {
+			"keccak256": "0x63582b5ea97b42bdd451daa94dd1f290b3571a0c1b1975cc66fe6770f53ef67d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3693b3c9e9def582d736d421e4423c819b0d305bf452682ad66afba1c61143b9",
+				"dweb:/ipfs/Qma25P4M4K7zbAk6tQ9FVnqFGNnSwjCW1rzfrFMNBechx4"
+			]
+		},
+		"CarbonToken/dao/pUser.sol": {
+			"keccak256": "0x327c5165ccb5809c57abb935085a88dce51415f8f3dd98cdd88acdb221da173c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c99337c61b3fc0c10a24dc69c09e2b4056d17d38d15d26af66496204d89698fe",
+				"dweb:/ipfs/QmQAsPA57x6qohgiqpXKW93CyVxnQ5G7a6WiSqrqApPVU6"
+			]
+		},
+		"CarbonToken/merkle-tree-solidity/contracts/MerkleProof.sol": {
+			"keccak256": "0x15be661cc89213a5cc741b814cf37fb1ee557b6781639ee51bc5dfc8584c02e5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ab3c6b36c37a3a9e28032390a425b39e9d981ffec3ea1a22fc2abb7f120666da",
+				"dweb:/ipfs/QmQUdRZb7qgnHCGLdE6wSpW1GKKjWn8g7EeCkBzJHD3ep5"
+			]
+		},
+		"CarbonToken/oracle.sol": {
+			"keccak256": "0xfc76e3839528611d0412650e4bc0ea31cd8f6fe39fce8d292210baffe17fb902",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://12f89611d58b3eb2877e74269866a20ce06c502c434a61a7728b1776f51da563",
+				"dweb:/ipfs/QmT3x7psam6kZvH1ea6TdVkRkvWf7haNv7JSkxJJdBNSsZ"
+			]
+		}
+	},
+	"version": 1
+}

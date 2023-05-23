@@ -1,0 +1,148 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32[]",
+						"name": "addresses",
+						"type": "bytes32[]"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "TREE_HEIGHT",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "filledSubtrees",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "leaf",
+						"type": "bytes32"
+					}
+				],
+				"name": "getProof",
+				"outputs": [
+					{
+						"internalType": "bytes32[]",
+						"name": "",
+						"type": "bytes32[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "root",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "zeros",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"CarbonToken/MerkleTree.sol": "MerkleTree"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"CarbonToken/MerkleTree.sol": {
+			"keccak256": "0xd590cb41fc044fae1f7ad77ef526b6017ba5a42ef723cd3a8504d4becba34584",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d5cdb2c100d72fb5407917da13c9b7725476e45c5fcfe11c34e53854eb4aed00",
+				"dweb:/ipfs/QmQLPAYyH8zrZnFQPCm7emSt8gZH76R8tvrbjDySZhnHwD"
+			]
+		},
+		"CarbonToken/merkle-tree-solidity/contracts/MerkleProof.sol": {
+			"keccak256": "0x2a041b73b59687ab0d3beb1786d49d82778064b203e875a33b31f68880f4251a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://fe88b06509f443b1b1712cb58e9b9a0846cf2fbca9e793af2df480d8d3bcfa4d",
+				"dweb:/ipfs/QmW2tGovQLqR99dRJK7biCi6dupFix9gEqdHThjsV3F76T"
+			]
+		}
+	},
+	"version": 1
+}
