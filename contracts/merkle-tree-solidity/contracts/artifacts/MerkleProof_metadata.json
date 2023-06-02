@@ -1,0 +1,106 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32[]",
+						"name": "proof",
+						"type": "bytes32[]"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "leaf",
+						"type": "bytes32"
+					}
+				],
+				"name": "processProof",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32[]",
+						"name": "proof",
+						"type": "bytes32[]"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "root",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "leaf",
+						"type": "bytes32"
+					}
+				],
+				"name": "verify",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {
+				"processProof(bytes32[],bytes32)": {
+					"details": "Returns 通过Merkle树用`leaf`和`proof`计算出`root`. 当重建出的`root`和给定的`root`相同时，`proof`才是有效的。 在重建时，叶子节点对和元素对都是排序过的。"
+				},
+				"verify(bytes32[],bytes32,bytes32)": {
+					"details": "当通过`proof`和`leaf`重建出的`root`与给定的`root`相等时，返回`true`，数据有效。 在重建时，叶子节点对和元素对都是排序过的。"
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"CarbonToken/merkle-tree-solidity/contracts/MerkleProof.sol": "MerkleProof"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"CarbonToken/merkle-tree-solidity/contracts/MerkleProof.sol": {
+			"keccak256": "0xe238946464b4c7ada8bc3831c8ea90607f8f67775d0087484850dd2cc042b80a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0c4bfbd6c2d4c5151e7873642de28602bf768e2515914da9ab1fd1bfa37d2bdd",
+				"dweb:/ipfs/QmQmL2qzfgk5q9iZN57ReuUhHXNiFyfDhzx8E52EASi6FL"
+			]
+		}
+	},
+	"version": 1
+}
